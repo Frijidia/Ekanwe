@@ -14,7 +14,7 @@ const navigate = useNavigate()
         />
         <button
           className="absolute bottom-1/2 left-1/2 transform -translate-x-1/2 bg-white/10 text-white text-sm  px-11 py-2 rounded-md backdrop-blur-md shadow-md border border-white/30"
-          onClick={() => navigate("/loginOrconnect")}
+          onClick={() => navigate("/welcomecommercant")}
         >
           COMMERCANT
         </button>
@@ -28,7 +28,7 @@ const navigate = useNavigate()
         />
         <button
           className="absolute bottom-1/2 left-1/2 transform -translate-x-1/2 bg-white/10 text-white text-sm px-11 py-2 rounded-md backdrop-blur-md shadow-md border border-white/30"
-          onClick={() => navigate("/loginOrconnect")}
+          onClick={() => navigate("/welcomeinfluenceur")}
         >
           INFLUENCEUR
         </button>
