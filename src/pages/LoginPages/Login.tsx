@@ -56,8 +56,8 @@ export default function LoginPage() {
           </button>
           <button
             className="bg-[#FF6B2E] text-white px-6 py-2 rounded-lg text-sm font-semibold"
-            // onClick={() => navigate("/deals")}
-            onClick={() => navigate("/dealinfluenceur")}
+            onClick={() => navigate("/deals")}
+            // onClick={() => navigate("/dealinfluenceur")}
             // ici si il finit le login et il est commercant il ira sur deals si il est influenceur il ira sur dealsinfluenceur
             // il ira sur dealinfluenceur
           >
